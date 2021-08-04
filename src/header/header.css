@@ -1,0 +1,33 @@
+.title{
+    font-size: 7vw;
+    font-family: 'Butterfly Kids',sans-serif;
+}
+
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 35vh;
+    width: 100%;
+}
+
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width:900px){
+    .Header{
+        justify-content: space-evenly;
+        height: 25vh;
+    }
+    .title{
+        font-size: 11vw;
+    }
+}
+.searxh,
+.select{
+    width: 43%;
+}
