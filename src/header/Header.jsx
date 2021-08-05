@@ -33,7 +33,7 @@ const Header = ({select, setSelect,word,setWord, lightMode}) => {
           label="Language"
           value={select}
           onChange={(e)=>(handleChange(e.target.value))}
-          helperText="Please select your Language"
+          
         >
             {
                 data.map((select)=>(
